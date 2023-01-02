@@ -1,6 +1,6 @@
 # Portal-Tas-Scripts
 
-Ye, everything is in here that was presentet in TAS vids on my channel 
+Ye, everything is in here that was presented in TAS vids on my channel
 
 https://www.youtube.com/@wier2248
 
