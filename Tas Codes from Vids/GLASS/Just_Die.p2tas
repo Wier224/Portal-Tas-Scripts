@@ -1,0 +1,93 @@
+version 6
+start map workshop_1672340831
+rngmanip test-1
+
+0>0 0|0 0|jduzbo|//say Version 0.5;|
+120>0 1|0 0|||absmov -90
+192>>absmov 90
++7>>strafe max 90deg
++11>||D||autojump on
++100>0 1||d||autojump off;
++50>>autojump on
++60>>autojump off; absmov off; strafe off
+//normal elevator exit
+
++40>>absmov 90;setang 5.94 80.52 1
++7>||O1||strafe max 90deg
+//floor portal
+
++11>0 0||D20||autojump on; setang -21.89 63.55 1
++20>||B1||autojump off
+//upper portal
+
++20>||B1|| absmov 70; strafe max 70deg;
++10>> autoaim 686.50 1008 704.03
++20>0 0||B1||autojump on;
++10>0 1||||autoaim off;
+//random shot 'cause it's too late, and set-ang for bh into the portal 
+
++50>>autoaim 256.70 571.24 871.51
++2>||B1||
+//side shoot for gel to bounce on
+
++50>>autoaim 732 1018 1092
++10>||B1|| autoaim off
+//back shoot to molest and rape that fucking turret 
+//I HATE TURRETS IN GEL THEY ARE SO RANDOM AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+//that's the point I started to use rng manipulator.
+
++30>>autoaim 723.13 61.18 799.22; 
++10>>strafe max -120deg;
++30>||U1||autoaim off; strafe max 90deg; absmov 90; autojump off
+//autoaim at the cube
+
++50>> setang 0 100 50; strafe max 100deg; absmov 100;
++70>> setang 0 179 1; strafe max 179deg; absmov 178;
+//not the most optimal, but better than walking movement to da button.
+
++74>>setang -32.68 -160 1
++5>||U1|dog|
+//cube throw and dog.
+
++2>>strafe max 125deg; absmov 125;
++2>>strafe max 135deg; absmov 135;
+//pit jump
+
++120>||O1||autoaim -5.2 970.69 217.61
++20>||B1||autoaim -1.69 1076.45 200.05
+//portals on both sides of the mesh
+
++20>||U1||autoaim ent cube48-cube 10
++8>>strafe off; absmov 160deg
++21>>absmov 0deg
++50>||U1||absmov -99deg
+//grab da ball and back via same portals on to the launch pad
+//(kinda buggy 'cause of autoaim at the entity)
+
++50>>absmov off; autoaim ent button62-button
++50>>absmov -90; strafe max -90deg
++150>||U1||absmov 90; strafe max 90deg ang; autoaim off; autojump on;
+//some movement shenanigans while flying to the second button
+
++10>>autoaim ent @exit_door
+//that autoaim was a mistake.
+
++10>>absmov 125; strafe max 125deg vec;
++120>>absmov 60; strafe max 60deg ang;
++50>>autojump off;
++70>>absmov 90; strafe max 90deg; autoaim off;
+//not sure why and how that gets me to the door but it does i guess.
+//Pretty efficient
+
++15>>autojump on; setang 0 90 1
++50>>autojump off; absmov off; strafe off;
++80>>absmov 0; strafe max 0deg; autojump on;
++100>>autojump off; absmov off; strafe off;
+//standard ending
+
+
++180>0 0|0 0|jduzbo||autoaim  -2242.60 -2030.84 -83.97
+
+
+
++6969>0 0|0 0|jduzbo|say End Script|

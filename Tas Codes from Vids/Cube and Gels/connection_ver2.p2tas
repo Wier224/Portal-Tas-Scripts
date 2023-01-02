@@ -1,0 +1,67 @@
+//to remember :P - `plugin_load sar; sar_tas_server 1;`
+
+version 6
+start map workshop_1554884063
+//start now
+
+0>0 0|0 0|jduzbo|say Version 1.1| //just starting, releasing everything, starting over idk yez it's like 1 am what i'm i doing ;-;
+
+120>0 1|0 0|      |               |absmov -90
+192>>absmov 90 //double > just skips whole lines and gets to the tools
++7>>strafe max 90deg
+
++11>||D||autojump on //+11 means 11 frames after the last one
+
++100>0 1||d||autojump off;//tunrs off everything for the door
+// +5>0 1|90 -90|||
+
++50>>autojump on
+
++40>>autojump off; absmov off; strafe off
+
++50>>autojump on
+
++5>>absmov 59
++7>>strafe max 59deg
+
+
++10>||||autoaim 446.46 446.13 197.80
+
++130>||U||
++1>||u||
+
++4>>autoaim off
+
++5>>absmov off; strafe off; autojump off;
+
+
++70>0 0|0 0|||setang -30 7.41 1
++20>||U||
+//cube throw
+
++1>||u||setang -40.03 -64.66 1
++20>||B
++10>||b||setang 90 90 1
++18>||O
++10>-1 0||o
++1>||D||
++1>0 1||||absmov off;
++30>>setang 90 90 1
++20>||O
++10>||o
++100>||d||absmov 90; strafe max 90deg; autojump on;
+//good
+
++20>0 0||||autojump off; strafe off; absmov off;
++50>0 1||||
++70>||D||autojump on; absmov 0deg
++8>>strafe max 0deg; 
+//autojump control so u can go through the door
+
++100>||d||autojump off; strafe off; absmov off; 
++20>0 1||||absmov 0deg;
++100>0 0|0 0|jduzbo||autoaim  -2242.60 -2030.84 -83.97
+
+
+
++690>0 0|0 0|jduzbo|say End Script|

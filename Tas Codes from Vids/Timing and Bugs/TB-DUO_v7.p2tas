@@ -1,0 +1,95 @@
+version 6
+
+start map workshop_1666298351
+//start now     // ;)
+
+
+//tick>movement|angles|buttons|commands|tools       
+//that's actually useful LOL
+
+0>0 0|0 0|jduzbo|//say Version 1.0 //don't question it, it's my thing, it does nothing but it's funny XD
+
+
+120>0 1|0 0|||absmov -90
+192>>absmov 90
++7>>strafe max 90deg
++11>||D||autojump on
++100>0 1||d||autojump off;
+360>>absmov -90; strafe max -90deg
+//same code as every other elevator escape
+400>>absmov -120; strafe max -120deg; autojump on;
++40>>autojump off; absmov off; strafe off
++40>>absmov -90; strafe max -90deg
+//this part changes a lil 'cause door on the left //u mean right
+
+
++20>>absmov -120; strafe max -120deg; setang 43.89 -158.82 30
++10>||U||absmov off; strafe off; 
++30>0 1||u||absmov 30deg; strafe max 30deg; setang 0 0 5
++3>||U||
+//turret takedown
+
+
++30>||u||autojump on;
++15>>autojump off; absmov off; strafe off;
+597>>setang 30.49 -60.46 1
+repeat 10
+    +2>||U1
+end
++10>||u||setang -90 14 1
++15>||U||
+//buttons, that was a pain to get so i just spammed E and it worked :D
+
+
++10>||uO||setang 3.36 79.37 1
++28>0 0||oB||setang -1 -171.56 1
++20>0 1||b||setang 0.3 -6.5
++10>||O||
++10>0 0||o||setang 0 176.16
++1>0 1||||absmov 176
++30>0 0||||absmov off;decel 50ups
+//button platform, simble portal placment :D
+
++1>>setang 0 -90;decel off
++10>0 1||||absmov -118
++9>>absmov -16
++1>0 1||J3
++60>>absmov off
+// we are in the air
+
++15>>autoaim 132 393 570
++10>||B5
++15>>autoaim 2049 291 207
++20>||O5
+905>>autoaim 700 446 490
+911>||U3
++5>0 0||||autoaim off
+//we are in the funnel cube in hands
+
+
+1218>0 1||||setang -4.84 128.11
++80>>setang 25 167
++4>0 0|| U1||//setang -8.84 128.11
++5>0 1
++5>0 0
+//the most random tube into portal transition i've ever seen ;-; 
+//(I retimed and realingned this part, be careful with it plz)
+
++5>>setang 0 -45
++15>0 1||B3
+//portalbump
+
++29>0 1||||setang 0 -90; absmov -90;
++7>||D||strafe max -90deg; autojump on 
++10>||d||autojump off;
++20>||D||autojump on;
++60>||d||autojump off;
++10>>strafe off; absmov off;
++80>||D||absmov -0; strafe max -0deg; autojump on;
++100>||d||absmov off; strafe off; autojump off;
++150>0 0|0 0|jduzbo||autoaim  -2242.60 -2030.84 -83.97
+//elevetor exit
+
+
+
++6969>0 0|0 0|jduzbo|say End Script|
